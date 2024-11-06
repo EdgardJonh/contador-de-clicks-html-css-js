@@ -1,0 +1,19 @@
+
+/* Estilos generales de la página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1c1c1c; /* Color negro carbón */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos del contador */
+.contador {
+  color: #00ff00; /* Color verde neón */
+  font-size: 20rem; /* Tamaño grande para parecerse a un reloj */
+  font-weight: bold;
+  user-select: none;
+}
