@@ -4,16 +4,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   background-color: #1c1c1c; /* Color negro carbón */
   font-family: Arial, sans-serif;
+
 }
 
 /* Estilos del contador */
 .contador {
-  color: #00ff00; /* Color verde neón */
+  color: #adadad; /* Color verde neón */
   font-size: 20rem; /* Tamaño grande para parecerse a un reloj */
+  font-family: 'Orbitron', sans-serif; /* Fuente de reloj digital */
   font-weight: bold;
   user-select: none;
+}
+img{
+    width: 15%;
 }
